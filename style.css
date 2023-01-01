@@ -71,6 +71,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 100px 50px;
 }
 
@@ -86,19 +87,40 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin: 0px 70px;
 }
 
 .img-sec {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
 .img-sec img {
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
     border-radius: 20px;
     border: 2px solid #3882f6;
+}
+
+.quote-sec {
+    display: flex;
+    background-color: #e5e7eb;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
