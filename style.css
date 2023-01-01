@@ -55,9 +55,9 @@ body {
 }
 
 .myButton {
-	background-color:#149cdb;
+	background-color:#3882f6;
 	border-radius:28px;
-	border:1px solid #147ecf;
+	border:1px solid #3882f6;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -66,3 +66,39 @@ body {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
 }
+
+.sec-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.image-desc {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.img-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-sec img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 2px solid #3882f6;
+}
+
